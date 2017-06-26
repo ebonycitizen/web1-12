@@ -8,5 +8,5 @@ for(var i = 1; i < word; i++)
 {
   var li = document.createElement('li');
   li.textContent = i + '回目';
-  document.getElementById('list').appendChild(li);
+  document.getElementById('loop').appendChild(li);
 }
