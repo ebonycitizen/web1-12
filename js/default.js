@@ -1,11 +1,7 @@
 var times = document.getElementById('form').word.value;
 
-
-
-function Show(num)
+function Show()
 {
-  if(num === 0)
-  {
     for(var i = 1; i < times; i++)
     {
       var li = document.createElement('li');
@@ -28,7 +24,4 @@ function Show(num)
       document.getElementById('loop').appendChild(li);
     }
     document.getElementById("loop").style.visibility="visible";
-  }
-  if(num === 1)
-    document.getElementById("loop").style.visibility="hidden";
 }
