@@ -6,12 +6,11 @@ document.getElementById('form').onsubmit = function()
   IsButtonDown = true;
 }
 
-if(IsButtonDown)
-{
-  for(var i = 1; i < word; i++)
+
+  for(var i = 1; i < 10; i++)
   {
     var li = document.createElement('li');
     li.textContent = i + '回目';
     document.getElementById('loop').appendChild(li);
   }
-}
+
