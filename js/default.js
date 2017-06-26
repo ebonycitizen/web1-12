@@ -1,4 +1,4 @@
-bool IsButtonDown = false;
+var IsButtonDown = false;
 
 document.getElementById('form').onsubmit = function()
 {
