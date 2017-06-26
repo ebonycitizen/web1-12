@@ -10,20 +10,20 @@ document.getElementById('form').onsubmit = function()
 
 var times = document.getElementById('form').word.value;
 
-if(IsButtonDown)
+if(IsButtonDown === true)
 {
   for(var i = 1; i < times; i++)
   {
     var li = document.createElement('li');
-    if(i%3 == 0)
+    if(i%3 === 0)
     {
       li.textContent = 'Fizz';
     }
-    else if(i%5 == 0)
+    else if(i%5 === 0)
     {
       li.textContent = 'Buzz';
     }
-    else if(i%3 == 0 && i%5 == 0)
+    else if(i%3 === 0 && i%5 === 0)
     {
       li.textContent = 'FizzBuzz';
     }
