@@ -3,8 +3,6 @@ var times = document.getElementById('form').word.value;
 document.getElementById('form').onsubmit = function()
 {
     window.alert(document.getElementById('form').word.value);
-    history.back();
-    history.forward();
 }
 
 for(var i = 1; i < times; i++)
@@ -28,3 +26,4 @@ for(var i = 1; i < times; i++)
   }
   document.getElementById('loop').appendChild(li);
 }
+history.back();
