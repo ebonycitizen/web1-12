@@ -28,4 +28,6 @@ for(var i = 1; i < times; i++)
   document.getElementById('loop').appendChild(li);
 }
 if(input === true)
-    history.back();
+{
+    history.back();history.back();
+}
