@@ -1,4 +1,4 @@
-var IsButtonDown = false;
+var times;
 
 document.getElementById('form').onsubmit = function()
 {
@@ -6,8 +6,9 @@ document.getElementById('form').onsubmit = function()
   IsButtonDown = true;
 }
 
+var times = document.getElementById('form').word.value;
 
-  for(var i = 1; i < word; i++)
+  for(var i = 1; i < times; i++)
   {
     var li = document.createElement('li');
     li.textContent = i + '回目';
