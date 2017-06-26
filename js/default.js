@@ -3,6 +3,8 @@ var times = document.getElementById('form').word.value;
 document.getElementById('form').onsubmit = function()
 {
     window.alert(document.getElementById('form').word.value);
+    history.back();
+    history.forward();
     return false;
 }
 
