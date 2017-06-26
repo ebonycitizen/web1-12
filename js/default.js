@@ -2,7 +2,6 @@ var times = document.getElementById('form').word.value;
 
 document.getElementById('form').onsubmit = function()
 {
-    history.back();
     window.alert(document.getElementById('form').word.value);
 }
 
