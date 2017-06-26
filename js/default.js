@@ -5,6 +5,7 @@ document.getElementById('form').onsubmit = function()
 {
   window.alert(document.getElementById('form').word.value);
   IsButtonDown = true;
+  return false;
 }
 
 var times = document.getElementById('form').word.value;
