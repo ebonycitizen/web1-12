@@ -6,7 +6,7 @@ document.getElementById('form').onsubmit = function()
     input = true;
 }
 
-for(var i = 1; i < times; i++)
+for(var i = 1; i <= times; i++)
 {
   var li = document.createElement('li');
   if(i%3 === 0 && i%5 === 0)
