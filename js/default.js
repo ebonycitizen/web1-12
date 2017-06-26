@@ -22,7 +22,10 @@ for(var i = 1; i < times; i++)
   document.getElementById('loop').appendChild(li);
 }
 
-function Show()
+function Show(num)
 {
-  document.getElementById("loop").style.visibility="visible";
+  if(num === 0)
+    document.getElementById("loop").style.visibility="visible";
+  if(num === 1)
+    document.getElementById("loop").style.visibility="hidden";
 }
