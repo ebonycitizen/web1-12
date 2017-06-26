@@ -8,13 +8,10 @@ document.getElementById('form').onsubmit = function()
 }
 
 var times = document.getElementById('form').word.value;
+document.getElementById('loop').style.visibility="hidden";
 if(IsButtonDown)
 {
   document.getElementById('loop').style.visibility="visible";
-}
-else
-{
-  document.getElementById('loop').style.visibility="hidden";
 }
 
 for(var i = 1; i < times; i++)
