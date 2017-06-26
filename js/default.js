@@ -3,7 +3,7 @@ var times = document.getElementById('form').word.value;
 document.getElementById('form').onsubmit = function()
 {
     window.alert(document.getElementById('form').word.value);
-    history.back();
+    history.back();history.back();
 }
 
 for(var i = 1; i <= times; i++)
