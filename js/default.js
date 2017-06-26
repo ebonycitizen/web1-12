@@ -1,16 +1,14 @@
 var times;
-var IsButtonDown = false;
 
 document.getElementById('form').onsubmit = function()
 {
   document.getElementById('loop').style.visibility="visible";
-  IsButtonDown = true;
   return false;
 }
 
 var times = document.getElementById('form').word.value;
 
-if(IsButtonDown === true)
+function Show()
 {
   for(var i = 1; i < times; i++)
   {
@@ -32,5 +30,6 @@ if(IsButtonDown === true)
       li.textContent = i;
     }
     document.getElementById('loop').appendChild(li);
+    document.getElementById("loop").style.visibility="visible";
   }
 }
