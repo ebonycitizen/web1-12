@@ -6,6 +6,7 @@ document.getElementById('form').onsubmit = function()
 }
 
 var times = document.getElementById('form').word.value;
+document.getElementById('fb').style.visibility="visible";
 
   for(var i = 1; i < times; i++)
   {
