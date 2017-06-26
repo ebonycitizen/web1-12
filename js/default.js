@@ -1,11 +1,7 @@
 var times;
 
-document.getElementById('form').onsubmit = function()
-{
-  document.getElementById('loop').style.visibility="visible";
-  return false;
-}
 
+document.getElementById('loop').style.visibility="visible";
 var times = document.getElementById('form').word.value;
 
 function Show()
