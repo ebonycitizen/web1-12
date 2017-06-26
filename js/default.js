@@ -1,5 +1,5 @@
 var times = document.getElementById('form').word.value;
-var input = false;
+
 document.getElementById('form').onsubmit = function()
 {
     window.alert(document.getElementById('form').word.value);
@@ -27,7 +27,4 @@ for(var i = 1; i < times; i++)
   }
   document.getElementById('loop').appendChild(li);
 }
-if(input === true)
-{
-    history.back();history.back();
-}
+history.back();
