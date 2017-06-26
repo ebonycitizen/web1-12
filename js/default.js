@@ -1,11 +1,8 @@
-var times;
-
-
-document.getElementById('loop').style.visibility="visible";
 var times = document.getElementById('form').word.value;
 
 function Show()
 {
+  document.getElementById("loop").style.visibility="visible";
   for(var i = 1; i < times; i++)
   {
     var li = document.createElement('li');
@@ -26,6 +23,5 @@ function Show()
       li.textContent = i;
     }
     document.getElementById('loop').appendChild(li);
-    document.getElementById("loop").style.visibility="visible";
   }
 }
