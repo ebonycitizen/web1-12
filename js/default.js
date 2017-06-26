@@ -3,7 +3,7 @@ document.getElementById('form').onsubmit = function()
   window.alert(document.getElementById('form').word.value);
 }
 
-for(var i = 1; i < word.value; i++)
+for(var i = 1; i < 10; i++)
 {
   var li = document.createElement('li');
   li.textContent = i + '回目';
