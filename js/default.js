@@ -3,7 +3,7 @@ var times = document.getElementById('form').word.value;
 document.getElementById('form').onsubmit = function()
 {
     window.alert(document.getElementById('form').word.value);
-    input = true;
+    history.back();
 }
 
 for(var i = 1; i <= times; i++)
@@ -27,4 +27,3 @@ for(var i = 1; i <= times; i++)
   }
   document.getElementById('loop').appendChild(li);
 }
-history.back();
